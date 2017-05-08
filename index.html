@@ -158,11 +158,11 @@
 									</div>
 									<div class="panel-body">
 										
-										<p>intstructions</p>
+										<p>Create a branch of the master branch with the following command. For this example, I am using "ghostwriter" for the new user and branch. You should substitue it with your GitHub user name.</p>
 										<!-- cmd -->
 										<div class="panel panel-default">
 											<div class="panel-body">
-												cmd
+												git branch [your username]-branch
 											</div>
 										</div>
 										<!-- cmd screenshot -->
@@ -171,7 +171,7 @@
 												<h5 class="panel-title">Command</h5>
 											</div>
 											<div class="panel-body">
-												<img class="img-responsive" src="screenshots/clone.png">
+												<img class="img-responsive" src="screenshots/branch.png">
 											</div>
 										</div>
 
@@ -181,7 +181,47 @@
 												<h5 class="panel-title">Result</h5>
 											</div>
 											<div class="panel-body">
-												<img class="img-responsive" src="screenshots/cloneresult.png">
+												<img class="img-responsive" src="screenshots/branchresult.png">
+											</div>
+										</div>
+
+										<p>New branch is create - in your LOCAL REPOSITORY</p>
+
+									</div>
+								</div>
+
+								<!-- step 4 checkout your new branch
+									* git checkout [your name]-branch -->
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3 class="panel-title">Step 4: Checkout your new branch</h3>
+									</div>
+									<div class="panel-body">
+										
+										<p>Now that you have created a new branch, you have to switch from the master branch to the new branch in your LOCAL repository so that the changes you commit will be commited to the branch. Use the git checkout command for that.</p>
+										<!-- cmd -->
+										<div class="panel panel-default">
+											<div class="panel-body">
+												git checkout [your username]-branch
+											</div>
+										</div>
+										<!-- cmd screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Command</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/checkout.png">
+											</div>
+										</div>
+
+										<!-- result screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Result</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/checkoutresult.png">
 											</div>
 										</div>
 
@@ -191,8 +231,7 @@
 
 <!-- 
 
-step 4 checkout your new branch
-* git checkout [your name]-branch
+
 
 step 5 update file - scroll down to line x and add your git hub id
 step 6 add your files to the local "staging area" for your branch
