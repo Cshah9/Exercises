@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Github Branching Exercise</title>
+		<!-- Add Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- internal CSS for page -->
+		<style type="text/css">
+
+			.jumbotron {
+				color: white;
+				background-color: black;
+				text-align: center
+			}
+			
+		</style>
+	</head>
+	<body>
+
+		<!-- container for content -->
+		<div class="container">
+			
+			<!-- first row for jumbotron -->
+			<div class="row">
+				<!-- Jumbotron for title -->
+				<div class="jumbotron">
+					<h1>GitHub Branching and Merging</h1>
+
+				</div>
+				
+			</div>
+
+			<!-- second row for content and aside for results -->
+
+			<div class="row">
+				
+				<!-- 1st column - 75% of page, will contain article content -->
+				<div class="col-md-9 col-sm=6">
+					
+					<!-- article element to hold main content of exercise -->
+					<article>
+
+						<!-- topics covered panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Topics Covered:</h3>
+							</div>
+							<div class="panel-body">
+								<ul>
+									<li>Branching a GitHub Repo</li>
+									<li>Merging a GitHub Repo</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- supplemental resources panel -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Supplemental Resources:</h3>
+							</div>
+							<div class="panel-body">
+								<ul>
+									<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows">Gitflow Workflows</a> - Explains overall workflow concepts (like when and why to create branches)</li>
+
+									<li><a href="https://www.atlassian.com/git/tutorials/using-branches">Git Branching Commands</a></li>
+									<li><a href="https://www.atlassian.com/git/tutorials/git-merge">Git Merging Commands</a></li>
+									<li><a href="https://www.codecademy.com/learn/learn-git">Learn Git</a> - Code Academy course to learn basic workflow and core features</li>
+								</ul>
+							</div>
+						</div>
+						
+
+						<!-- Exercise steps panel -->
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">Steps to complete this exercise:</h3>
+							</div>
+							<div class="panel-body">
+								
+							<!-- sub panels for each step-->
+
+								<!-- Step 1 - clone repo -->
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3 class="panel-title">Step 1: Clone Repo</h3>
+									</div>
+									<div class="panel-body">
+										
+										<p>Start by cloning this repositiory to your local machine. This repo will be the "central repository" that will contain the master branch and all other branches</p>
+										<!-- cmd -->
+										<div class="panel panel-default">
+											<div class="panel-body">
+												git clone https://github.com/Cshah9/Exercises.git
+											</div>
+										</div>
+										<!-- cmd screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Command</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/clone.png">
+											</div>
+										</div>
+
+										<!-- result screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Result</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/cloneresult.png">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Step 2 - Open file in browser -->
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3 class="panel-title">Step 2: Open file in browser</h3>
+									</div>
+									<div class="panel-body">
+										
+										<p>Open the index.html file in Sublime and right-click, and then click "Open in Broswer"</p>
+										<!-- cmd screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Editor</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/open.png">
+											</div>
+										</div>
+
+										<!-- result screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Result</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/openresult.png">
+											</div>
+										</div>
+
+										<p>The green panel will differ based on the how many users have merged their changes into this repo</p>
+		
+									</div>
+								</div>
+
+								<!-- step 3 - branch the master branch
+								* git branch [your name]-branch -->
+
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3 class="panel-title">Step 3: Branch the master branch</h3>
+									</div>
+									<div class="panel-body">
+										
+										<p>intstructions</p>
+										<!-- cmd -->
+										<div class="panel panel-default">
+											<div class="panel-body">
+												cmd
+											</div>
+										</div>
+										<!-- cmd screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Command</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/clone.png">
+											</div>
+										</div>
+
+										<!-- result screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Result</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/cloneresult.png">
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+
+<!-- 
+
+step 4 checkout your new branch
+* git checkout [your name]-branch
+
+step 5 update file - scroll down to line x and add your git hub id
+step 6 add your files to the local "staging area" for your branch
+* git add [files….]
+step 7 commit your changes to your branch in your local repo
+* git commit -m “<message>”
+step 8 switch your local repo to the master branch
+* git checkout master
+step 9 merge your branch into the master branch
+* git merge [your name]-branch
+if successful, then skip to step 13
+if there are merge conflicts, continue with the following steps
+
+- step 10 - open file with conflicts
+- step 11 - edit file to merge your changes
+- step 12 - then add/commit/merge goto to step 6 and continue
+
+
+step 13 delete your branch to keep the central repository clean.
+* git branch -d <new-branch>
+
+ -->
+<!-- step template -->
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3 class="panel-title">Step : TEMPLATE </h3>
+									</div>
+									<div class="panel-body">
+										
+										<p>intstructions</p>
+										<!-- cmd -->
+										<div class="panel panel-default">
+											<div class="panel-body">
+												cmd
+											</div>
+										</div>
+										<!-- cmd screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Command</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/clone.png">
+											</div>
+										</div>
+
+										<!-- result screenshot -->
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h5 class="panel-title">Result</h5>
+											</div>
+											<div class="panel-body">
+												<img class="img-responsive" src="screenshots/cloneresult.png">
+											</div>
+										</div>
+
+									</div>
+								</div>
+<!-- step template -->
+
+
+
+
+
+							</div>
+						</div>
+
+
+					</article>
+					
+				</div>
+
+				<!-- 2nd column - 25% of page, will aside content for results -->
+				<div class="col-md-3 col-sm=6">
+					
+					<!-- aside element to hold results of exercise -->
+					<aside>
+
+						<!-- username panel -->
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">The following users have successfulling merged a branch !!!</h3>
+							</div>
+							<div class="panel-body" id="usernames">
+
+								<!-- usernames will be added here -->
+
+							</div>
+						</div>
+						
+						
+					</aside>
+
+				</div>
+
+			</div>
+
+
+
+
+		</div>
+
+
+		<!-- add jQuery -->
+		<script src="https://code.jquery.com/jquery.js"></script>
+
+		<!-- add Firebase -->
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+
+		<!-- add Moment.js -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js" ></script>
+
+		<!-- internal JS script for page -->
+		<script type="text/javascript">
+		
+			// array to hold github usernames:
+			var usernames = [];
+
+			/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+			   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+			   add your git hub user name below and push it into the usernames array:
+
+			   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+			   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+			   usernames.push("cshah9");
+			  // usernames.push("ghostwriter");
+
+			   // add usernames to username panel
+
+			   for (var i = 0; i < usernames.length; i++) {
+			   		$("#usernames").append( "<a href='https://github.com/"+ usernames[i] + "' class='btn btn-success'>" + usernames[i] + "</a>") ;
+			   		$("#usernames").append("<br><br>");
+			   }
+
+			   // https://github.com/cshah9
+			
+
+		</script>
+
+	</body>
+</html>
